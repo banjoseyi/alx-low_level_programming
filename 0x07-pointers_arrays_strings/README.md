@@ -1,0 +1,1 @@
+Even moer pointers_arrays_strings
