@@ -2,16 +2,17 @@
 #include <stdio.h>
 
 /**
- * main - this program prints its name
+ * main - prints its name of the program
+ * @argc: count arguments
+ * @argv: Arguments
  *
- * @argc: number of arguments
- * @argv: string of arguments
- *
- * Return: 0
+ * Return: Always 0 (Success)
  */
-int main(int argc _attribute_((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-  printf("%s\n", argv[0]);
-  return (0);
+(void) argc;
+printf("%s\n", argv[0]);
+
+return (0);
 }
 
