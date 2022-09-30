@@ -1,14 +1,17 @@
-#include <unsitd.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The charater to print
+ * main - this program prints its name
  *
- * Return: on success 1.
- * on error, -1 is returned, and errno is set appropriately.
+ * @argc: number of arguments
+ * @argv: string of arguments
+ *
+ * Return: 0
  */
-int _putchar(char c)
+int main(int argc attribute((unused)), char *argv[])
 {
-return (write(1, &c, 1));
+  printf("%s\n", argv[0]);
+  return (0);
 }
 
