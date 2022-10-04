@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * alloc_grid - returns a pionter to a 2 dimensional array of integers.
- * @width: width of array
- * @height: height of array
+ * alloc_grid -allocates a grid, makes space and free space
+ * @width: takes in width of grid
+ * @height: height of grid
  *
- * Return: pointer to the array
+ * Return: grid with freed spaces
  */
 int **alloc_grid(int width, int height)
 {
