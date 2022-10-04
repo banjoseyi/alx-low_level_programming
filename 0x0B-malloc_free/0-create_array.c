@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
- * creat_arry - creat an arry of vhars, and
+ * create_array - creates an array of chars, and
  * initializes it with a specific char,
- * @size: size of the arry
+ * @size: size of the array
  * @c: Character to insert
- * Return: Null if size is zero or if it fails,
+ * Return: NULL if size is zero or if it fails,
  * pointer to arry if everythin is normal.
  */
 char *create_array(unsigned int size, char c)
 {
-	char *array:
+	char *array;
 	unsigned int index;
 
 	if (size == 0)
 		return (NULL);
 	array = malloc(sizeof(char) * size);
 
-	if (arry == NULL)
+	if (array == NULL)
 		return (NULL);
 
 	for (index = 0; index < size; index++)
