@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
 	if (bytes < 0)
 	{
-		printf("Errror\n");
+		printf("Error\n");
 		exit(2);
 	}
 
