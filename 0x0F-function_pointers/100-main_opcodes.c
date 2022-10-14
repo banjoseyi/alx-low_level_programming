@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf("error\n");
+		printf("Error\n");
 		exit(1);
 	}
 
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
 	if (bytes < 0)
 	{
-		printf("errror\n");
+		printf("Errror\n");
 		exit(2);
 	}
 
