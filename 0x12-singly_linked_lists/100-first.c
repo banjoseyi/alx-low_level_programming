@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-void _attribute_((constructor)) hare(void);
-
 /**
- * hare - Prints a string befor the main function is executed.
+ * first - function executed befor main
+ * Return: no return.
  */
-void hare(void)
+void _attribute_((constructor)) first()
 {
 	printf("You're beat! and yet, you must allow,");
 	printf("\nI bore my house upon my back!\n");
