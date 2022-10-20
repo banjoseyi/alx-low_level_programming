@@ -1,5 +1,5 @@
 SECTION .data
-msg:	db "hello, holberton", 0
+msg:	db "Hello, Holberton", 0
 fmt:	db "%s", 10, 0
 
 	SECTION .text
@@ -13,3 +13,4 @@ main:
 
 	mov eax, 0
 	ret
+
